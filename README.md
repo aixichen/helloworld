@@ -1,0 +1,4 @@
+- 请确保 apisix nacos helloworld 网络可以互通
+- 请创建网络：
+- docker network create default_network 
+-  将 apisix nacos 加入这个网络内  helloworld已经在这个网络内
